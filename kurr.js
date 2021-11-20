@@ -1137,7 +1137,7 @@ else if(menusimpel = true){
 				stst = stst.status == 401 ? '' : stst.status
        menu = `┌───「 \`\`\`Kurz Bot Assistan\`\`\` 」
 │
-🏴‍☠️ _Creator : *KurrXd* 
+🏴‍☠️ _Creator : *Made* 
 🏴‍☠️ _Battery : ${baterai.battery}_
 🏴‍☠️ _Mode : ${publik ? 'Public' : 'Self'}_
 🏴‍☠️ _Total Hit : ${cmhit.length}_
@@ -1145,7 +1145,7 @@ else if(menusimpel = true){
 │
 🏴‍☠️───「 \`\`\`INFO BOT\`\`\` 」
 │
-🏴‍☠️ _Nama Bot : Kurz Bot Assistan_
+🏴‍☠️ _Nama Bot : Made Bot Assistan_
 🏴‍☠️ _Nama Owner : ${NamaOwner}_
 🏴‍☠️ _Nomor Owner : @${otod.split('@')[0]}_
 🏴‍☠️ _Auto Composing : ${settings.autocomposing}_
@@ -1167,17 +1167,17 @@ case 'allmenu':
   if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
 stod = `${sender}`
        stst = await kurr.getStatus(`${sender.split('@')[0]}@c.us`)
-       nama = '🏴‍☠️ Kurz Bot Assistan 🏴‍☠️'
-       ownerJid = "6281220670449@s.whatsapp.net"
+       nama = '🏴‍☠️ Made Bot Assistan 🏴‍☠️'
+       ownerJid = "687965044@s.whatsapp.net"
 				stst = stst.status == 401 ? '' : stst.status
 			
 menunya = `╭─❒ 「 Bot Info 」 ❒
-🏴‍☠️ _Creator : *KurrXd*
+🏴‍☠️ _Creator : *Made*
 🏴‍☠️ _Battery : ${baterai.battery}_
 🏴‍☠️ _Mode : ${publik ? 'Public' : 'Self'}_
 🏴‍☠️ _Total Hit : ${cmhit.length}_
 🏴‍☠️ _Prefix : ${multi ? 'Multi Prefix' : 'No Prefix'}_
-🏴‍☠️ _Nama Bot : Kurz Bot Assistan_
+🏴‍☠️ _Nama Bot : Made Bot Assistan_
 🏴‍☠️ _Nama Owner : ${NamaOwner}_
 🏴‍☠️ _Nomor Owner : @${otod.split('@')[0]}_
 🏴‍☠️ _Auto Composing : ${settings.autocomposing}_
@@ -1452,7 +1452,7 @@ mhan = await kurr.prepareMessage(from, pporigi, image, {thumbnail: pporigi})
 const btnBngsat = {
 imageMessage: mhan.message.imageMessage,
 contentText: `${menunya}`,
-footerText: `Kurz Bot Assistan`,
+footerText: `Made Bot Assistan`,
 buttons: gbutsan,
 headerType: 4
 }
@@ -1460,7 +1460,7 @@ kurr.sendMessage(from, btnBngsat, MessageType.buttonsMessage, { quoted: ftrol, c
                   }
 break
         case 'store':
-        reply('*STORE MENU*\nREADY RDP BY KurrXd\n SPEK:\n RAM 8GB CORE 2\n35k minat ketik .owner')
+        reply('*STORE MENU*\nREADY RDP BY Kurz\n SPEK:\n RAM 8GB CORE 2\n35k minat ketik .owner')
         break
 case 'verify':
 if (isRegistered) return sticOk(from)
@@ -1476,7 +1476,7 @@ const serialUser = createSerial(18)
 🏴‍☠️ *🏴‍☠️ Pengguna:* ${_registered.length}
 └❏
 
-*「 Kurz Bot Assistan 」*`
+*「 Made Bot Assistan 」*`
 gbutsan = [
 {buttonId:`menu`,buttonText:{displayText:'🏴‍☠️MENU🏴‍☠️'},type:1},
 {buttonId:`donasi`,buttonText:{displayText:'💗DONASI💗'},type:1}
@@ -1498,7 +1498,7 @@ case 'command':
  stod = `${sender}`
  listMsg = {
  buttonText: 'LIST MENU',
- footerText: '*_© Kurz Bot Assistan_*',
+ footerText: '*_© Made Bot Assistan_*',
  description: `Hai kak @${stod.split('@')[0]}, Silahkan pilih menu disini`,
  sections: [
                      {
@@ -2678,7 +2678,7 @@ break
 		anu =`PRICELIST SEWABOT
 		10K:6BULAN
 		20K:MANEN
-		SC? YT KurrXd OFFICIAL`
+		SC?`
  buttons = [
 {buttonId: `menu`, buttonText: {displayText: 'BACK➡️'}, type: 1},
 {buttonId:`donasi`,buttonText:{displayText:'💗DONASI💗'},type:1},
